@@ -1,0 +1,4 @@
+1) You need to install "Express" module to create a web server.
+2) you can run the server by executing: (nodemon build/server.js).
+    - You need to have nodemon installed globally in order for this command to work
+3) 
