@@ -6,6 +6,8 @@
 - TypeScript
 - Nodemon
 - Yargs
+- Request
+- Axios
 
 ## Usage
 Every project has it's own set of instructions. Checkout the README.md files in each project 

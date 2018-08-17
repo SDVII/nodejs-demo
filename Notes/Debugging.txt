@@ -1,0 +1,17 @@
+Debugging NodeJS with terminal:
+    1) You can inspect a file or command by running: node inspect  file_path/file.ext command --params
+    2) You can go to the next line by typing 'n' then enter
+    3) You can go to the end of the process by entering 'c'
+        - If you added "debugger;" to any part of your app, entering 'c' will stop there.
+    4) Once you are at the desired line, enter 'repl'. In repl you can:
+        1- Write the name of the variable you want inspect. ex: `person`
+        2- Assign values to variables. ex: `person.name = 'houmam'`
+        3- You can exit the repl by ctrl + c
+    5) You can exit the debugger by ctrl + c
+
+Debugging with chrome:
+    1) run node --inspect-brk  file_path/file.ext command --params
+        1- Writing nodemon instead of node for the debugger to refresh with code changes
+    2) navigate to 'chrome://inspect/#devices'
+    3) Press inspect
+    

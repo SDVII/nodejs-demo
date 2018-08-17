@@ -1,0 +1,13 @@
+To start a NodeJs application with TypeScript:
+    1) Follow this article : https://basarat.gitbooks.io/typescript/docs/quick/nodejs.html.
+		1- Edit tsconfig.json: include: ["./src/**/*"] to "./src/**/*".
+		2- Edit package.json build:live index.ts accourding to your starting file directory.
+    2) Run Nodemon and tsc -watch
+    2) Now you can import builtin NodeJS modules like this: import * as os from "os".
+    3) You can edit package.json script to change the location of the starting file.
+    4) To use npm packages, use npm install @types/<package-name> and import as previously mentioned.
+    5) you can use yargs library to have better parsing for command parameters.
+    6)
+
+
+

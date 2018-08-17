@@ -1,0 +1,5 @@
+1) You can use "request" module to make API calls.
+    - You have to install it for both normal and @type modules
+2) You can use "axios" module to make async API calls with promises.
+    - You don't need to install the @types package because it's already included
+3) In order to use promises in ts, edit tsconfig.json: ("lib": ["es2015","es5","dom","scripthost"])
