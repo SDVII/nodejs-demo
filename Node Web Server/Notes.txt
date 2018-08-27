@@ -3,3 +3,11 @@
     - You need to have nodemon installed globally in order for this command to work
 3) You can use a template engine to inject variables into html files, like "HandlebarsJS"
 4) you can use services like "Heroku" to host your applications.
+    - Download heroku cli tools.
+    - Login: run (heroku login)
+    - Create ssh key: run (heroku keys:add)
+    - Create app: run in root (heroku create)
+    - Deploy app: run (git push heroku)
+    - Open app: run (heroku open -a APP)
+    * This won't work with the current setup because multiple projects are contained inside the repo. you might need this for the ts as well: https://github.com/zidizei/heroku-buildpack-tsc
+  
