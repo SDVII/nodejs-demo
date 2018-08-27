@@ -1,4 +1,5 @@
 1) You need to install "Express" module to create a web server.
-2) you can run the server by executing: (nodemon build/server.js).
+2) You can run the server by executing: (nodemon build/server.js).
     - You need to have nodemon installed globally in order for this command to work
-3) 
+3) You can use a template engine to inject variables into html files, like "HandlebarsJS"
+4) you can use services like "Heroku" to host your applications.
