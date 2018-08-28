@@ -1,0 +1,35 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "A directory of NodeJS projects written to document NodeJS functionalities.",
+  "main": "build/index",
+  "types": "build/index",
+  "scripts": {
+    "test": "mocha -r ts-node/register **/*.test.ts",
+    "test-watch": "npm run test:live",
+    "start": "npm run build:live",
+    "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./utils/utils.ts",
+    "test:live": "nodemon --exec 'npm test'"
+  },
+  "author": "Houmam Hatahet",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^4.1.4",
+    "@types/chai-spies": "^1.0.0",
+    "@types/expect": "^1.20.3",
+    "@types/mocha": "^5.2.5",
+    "@types/rewire": "^2.5.28",
+    "@types/sinon": "^5.0.2",
+    "chai": "^4.1.2",
+    "chai-spies": "^1.0.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.3",
+    "rewire": "^4.0.1",
+    "sinon": "^6.1.5",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.0.1"
+  },
+  "dependencies": {
+    "@types/node": "^10.9.2"
+  }
+}

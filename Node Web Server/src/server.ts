@@ -64,6 +64,9 @@ app.get('/',(request : any , response : any)=>{
     })
 });
 
+// To use custom status codes
+// app.status(200).send("Hello World")
+
 app.get('/about',(request : any , response : any)=>{
     // response.send("About Page")
     response.render('about.hbs',{

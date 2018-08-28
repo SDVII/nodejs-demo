@@ -1,0 +1,6 @@
+1) You can use "Mocha" to create tests
+    - Use this guide for ts: https://journal.artfuldev.com/unit-testing-node-applications-with-typescript-using-mocha-and-chai-384ef05f32b2
+    - You should "Chai" too for 'expect' method
+    - Check package.json
+2) You can use "SupperTest" to test routes
+3) You can use spies to check if sudo functions or nested functions, you can use libraries like "SinonJs" 
